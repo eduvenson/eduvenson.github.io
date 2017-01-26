@@ -1,0 +1,16 @@
+
+.profile{
+	width: 150px;
+	border-radius: 95px;
+}
+
+#sidebar-wrapper{
+	font-size: 20px;
+}
+
+.social-badges {
+    width: 100%;
+    clear: both;
+    text-align: center;
+	margin-top:15px;
+}
