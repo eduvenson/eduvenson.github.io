@@ -1,0 +1,282 @@
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-top: 50px;
+ /* body padding for fixed top nav */
+}
+
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.tab-pane {
+  margin-top: 15px;
+}
+
+/* Page Sections */
+.section,
+.section-colored {
+  padding: 30px 0;
+}
+
+.section-colored {
+  color: #000;
+  background-color: #e1e1e1;
+  background: url("../images/bg.jpg");
+  background-size: 850px;
+ /* change this to change the background color of a colored section */
+}
+
+.sidebar {
+  margin-top: 40px;
+}
+
+.sidebar ul {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+
+/* Half Page Height Carousel Customization */
+.carousel {
+  height: 50%;
+}
+
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+  margin-bottom: 45px;
+}
+
+.tooltip-social a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.facebook-link a:hover {
+  color: #3b5998;
+}
+
+.linkedin-link a:hover {
+  color: #007fb1;
+}
+
+.twitter-link a:hover {
+  color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+  color: #d14836;
+}
+
+/* Service Page Styles */
+.service-icon {
+  font-size: 50px;
+}
+
+/* 404 Page Styles */
+.error-404 {
+  font-size: 8em;
+}
+
+/* Pricing Page Styles */
+.price {
+  font-size: 4em;
+}
+
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+
+.price-month {
+  font-size: 35%;
+  font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+  margin: 10px 0;
+}
+
+footer p{
+    margin-left:365px;
+    margin-top:0px;
+    font-size:12px;
+    color:#333;
+  }
+
+footer img{
+    float:left;
+    padding:0px 15px 0px 0px;
+  }
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+
+  .carousel {
+    height: 70%;
+ /* increases the carousel height so it looks good on phones */
+  }
+}
+
+#photo{
+  width: 120px;
+  height: 120px;
+  /*background: url("../images/eu00.jpg") center;*/
+  background: url("../images/photo.png") 0px 0px;
+  background-size: 120px 120px;
+  margin:0 auto;
+  border-radius:60px;
+}
+
+.home{
+	background: url("../images/home.png") no-repeat center right;
+	height: 50px;
+	width: 34px;
+	margin-left:7px;
+}
+
+.home:hover{
+	background: url("../images/home.png") no-repeat center left;
+	height: 50px;
+	width: 34px;
+}
+
+.paperpreview{
+  box-shadow: 3px 3px 5px #888888;
+  margin-top: 25px;
+}
+
+.prizeicon{
+  margin-top: -50px;
+}
+
+.prizetxt{
+  font-weight:bold;
+  color:#A00;
+}
+
+h4{
+  color:#999;
+}
+
+@media (max-width: 991px){
+  
+.paperpreview, .prizeicon, .hideabs, .filter{
+  display: none;
+}
+
+}
+
+@media (max-width: 767px){
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+  height:40px;
+  border-bottom: none;
+}
+
+footer a{
+  color:red;
+  display:none;
+}
+
+footer p{
+  margin-left: 0px;
+}
+
+}
+
+.hovershaddow img:hover{
+  box-shadow: 0px 0px 5px #888888;
+}
+
+#vibHMDicon{
+  width: 220px;
+  height: 120px;
+  background: url("../images/headHMD.png") 0px 0px;
+  background-size: 220px 120px;
+  margin:0 auto;
+  border-radius:60px;
+}
+
+.vibHMD{
+  height: 320px;
+}
+
+.vibHMD H2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+.idxshrt{
+  text-align: center;
+  padding: 10px 5px 30px 5px;
+}
+
+.well h3{
+  color: #000;
+  margin-top: 0;
+}
+
+.filter{
+  margin-bottom: 30px;
+}
+
+.filter h3{
+  font-size: 15px;
+  text-align: center;
+  margin: 7px 0px;
+
+}
+
+.filteritem{
+  cursor: pointer;
+  padding-top: 15px;
+  color: #428bca;
+}
+
+.filteritem:hover{
+  background: #EEE;
+  color: navy;
+}
+
+.projitem{
+  border-bottom: 1px solid #EEE;
+  padding: 25px 0px;
+  margin-bottom: 10px;
+}
+
+.publabel{
+  float: right;
+}

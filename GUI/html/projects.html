@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#222222">
+    <title>Interaction Lab - Haptic Interaction</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/modern-business.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand home" href="../../index.html"> </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="https://wiki.inf.ufrgs.br/Computer_Graphics,_Image_Processing_and_Interaction">LAB WIKI</a></li>
+                    <li><a href="http://www.inf.ufrgs.br/~vajoliveira/LabCloud/index.html">LABCLOUD</a></li>
+                    <li><a href="https://vimeo.com/groups/cgufrgs/videos">VIMEO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Interactive Projects</h1>
+                    <ol class="breadcrumb">
+                        <li><a href="../../index.html">Home</a>
+                        </li>
+                        <li class="active">Interactive Projects</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="row filter">
+                <div class="col-md-2 filteritem btnvr">
+                    <img class="img-responsive" src="../images/acadcover5.png" alt="VR & AR Applications" />
+                    <h3>VR & AR Applications</h3>
+                </div>
+
+                <div class="col-md-2 filteritem btnmultimodal">
+                    <img class="img-responsive" src="../images/acadcover6.png" alt="Multimodal Interaction" />
+                    <h3>Multimodal Interaction </h3>
+                </div>
+
+                <div class="col-md-2 filteritem btnmobile">
+                    <img class="img-responsive" src="../images/acadcover2.png" alt="Mobile Interaction" />
+                    <h3>Interaction with Mobile</h3>
+                </div>
+
+                <div class="col-md-2 filteritem btnhaptic">
+                    <img class="img-responsive" src="../images/acadcover1.png" alt="Haptic Interaction" />
+                    <h3>Haptic Interaction </h3>
+                </div>
+
+                <div class="col-md-2 filteritem btnmedical">
+                    <img class="img-responsive" src="../images/acadcover3.png" alt="Medical Applications" />
+                    <h3>Medical Applications</h3>
+                </div>
+
+                <div class="col-md-2 filteritem btnmultidisplay">
+                    <img class="img-responsive" src="../images/acadcover7.png" alt="Multi-Displays" />
+                    <h3>Multi-Displays</h3>
+                </div>
+            </div>
+
+            <div class="row projitem fltrvr fltrmultimodal fltrmobile">
+                <div class="col-md-4">
+					<img class="img-responsive" src="../images/acadcover2.png" alt="Collaborative 3DUI" />
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Design and Evaluation of a Handheld-based 3D User Interface for Collaborative Object Manipulation
+                    <br/><spam class="small">CHI 2017</spam></h3>
+
+                    <p><b>Authors:</b> GRANDI, J. G., DEBARRBA, H. G., NEDEL, L. and MACIEL, A. </p>
+                    <p><b>Abstract:</b> Object manipulation in 3D virtual environments demands a combined coordination of rotations, translations and scales, as well as the camera control to change the user’s viewpoint. Then, for many manipulation tasks, it would be advantageous to share the interaction complexity among team members. In this paper we propose a novel 3D manipulation interface based on a collaborative action coordination approach. Our technique explores a smartphone – the touchscreen and inertial sensors – as input interface, enabling several users to collaboratively manipulate the same virtual object with their own devices. We first assessed our interface design on a docking and an obstacle crossing tasks with teams of two users. Then, we conducted a study with 60 users to understand the influence of group size in collaborative 3D manipulation. We evaluated teams in combinations of one, two, three and four participants. Experimental results show that teamwork increases accuracy when compared with a single user. The accuracy increase is correlated with the number of individuals in the team and their work division strategy.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+						<span class="label label-default">Mobile</span>
+	                </div>
+
+                    [<a href="../../PAPERS/3dmanipulation/Collaborative3DUI_CHI.pdf">paper</a>] 
+                </div>
+            </div>
+               
+            <div class="row projitem fltrvr fltrhaptics fltrmultimodal">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/haptics/VR2017.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Designing a Vibrotactile Head-mounted Display for Spatial Awareness in 3D Spaces
+                    <br/><spam class="small">IEEE VR 2017 & TVCG</spam></h3>
+
+                    <p><b>Authors:</b> de JESUS OLIVEIRA, V. A., BRAYDA, L., NEDEL, L., MACIEL, A.</p>
+                    <p><b>Abstract:</b> Due to the perceptual characteristics of the head, vibrotactile Head-mounted Displays are built with low actuator density. Therefore, vibrotactile guidance is mostly assessed by pointing towards objects in the azimuthal plane. When it comes to multisensory interaction in 3D environments, it is also important to convey information about objects in the elevation plane. In this paper, we design and assess a haptic guidance technique for 3D environments. First, we explore the modulation of vibration frequency to indicate the position of objects in the elevation plane. Then, we assessed a vibrotactile HMD made to render the position of objects in a 3D space around the subject by varying both stimulus loci and vibration frequency. Results have shown that frequencies modulated with a quadratic growth function allowed a more accurate, precise, and faster target localization in an active head pointing task. The technique presented high usability and a strong learning effect for a haptic search across different scenarios in an immersive VR setup.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+						<span class="label label-default">Haptics</span>
+	                </div>
+
+                    [<a href="../../PAPERS/hapticpapers/VR2017.pdf">paper</a>]
+                </div>
+            </div>
+
+            <div class="row projitem fltrmedical">
+            	<div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/medicalapps/invivoBRDFrendering.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">A laparoscopy-based method for BRDF estimation from in vivo human liver
+                    <br/><spam class="small">Medical Image Analysis 2017</spam></h3>
+
+                    <p><b>Authors:</b> Augusto L.P. Nunes, Anderson Maciel, Leandro Totti Cavazzola, Marcelo Walter</p>
+                    <p><b>Abstract:</b>While improved visual realism is known to enhance training effectiveness in virtual surgery simulators, the advances on realistic rendering for these simulators is slower than similar simulations for man-made scenes. One of the main reasons for this is that in vivo data is hard to gather and process. In this paper, we propose the analysis of videolaparoscopy data to compute the Bidirectional Reflectance Distribution Function (BRDF) of living organs as an input to physically based rendering algorithms. From the interplay between light and organic matter recorded in video images, we propose the definition of a process capable of establishing the BRDF for inside-the-body organic surfaces. We present a case study around the liver with patient-specific rendering under global illumination. Results show that despite the limited range of motion allowed within the body, the computed BRDF presents a high-coverage of the sampled regions and produces plausible renderings.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">Medical</span>
+	                </div>
+	                [<a href="http://dx.doi.org/10.1016/j.media.2016.09.005">Journal article</a>] [<a href="http://inf.ufrgs.br/~alpnunes/research/tutorial1/index.html">Tutorial</a>]
+                </div>
+            </div>
+
+            <div class="row projitem fltrvr fltrmultimodal fltrmobile">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/3dmanipulation/Collaborative3DUI.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Collaborative 3D Manipulation using Mobile Phones
+                    <br/><spam class="small">3DUI Contest 2016</spam></h3>
+
+                    <p><b>Authors:</b> GRANDI, J. G., BERNDT, I., DEBARRBA, H. G., NEDEL, L. and MACIEL, A. </p>
+                    <p><b>Abstract:</b> We present a 3D user interface for collaborative manipulation of three-dimensional objects in virtual environments. It maps inertial sensors, touch screen and physical buttons of a mobile phone into well-known gestures to alter the position, rotation and scale of virtual objects. As these transformations require the control of multiple degrees of freedom (DOF), collaboration is proposed as a solution to coordinate the modification of each and all the available DOFs. Users are free to define their manipulation roles. All virtual elements are displayed in a single shared screen, which is handy to aggregate multiple users in the same physical space.</p>
+
+					<p><img class="img-responsive" src="../images/prize_winner.png" alt="Best 3DUI" title="Best 3DUI Contest Award" style="display:inline"> <spam class="prizetxt">Best 3DUI Contest Award</spam></p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+						<span class="label label-default">Mobile</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/Collaborative3DUI.pdf">paper</a>] 
+                </div>
+            </div>
+                
+            
+            <div class="row projitem fltrhaptics">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/haptics/asia.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Tactile Treasure Map: Integrating Allocentric and Egocentric Information for Tactile Guidance
+                    <br/><spam class="small">ASIAHAPTICS 2016</spam></h3>
+
+                    <p><b>Authors:</b> MEMEO, M., de JESUS OLIVEIRA, V. A., NEDEL, L., MACIEL, A., BRAYDA, L.</p>
+                    <p><b>Abstract:</b> With interactive maps a person can manage to find the way from one point to another, using an allocentric perspective (e.g. Google Maps), but also looking at a location as from the inside of the map with an egocentric perspective (e.g. Google Street View). Such experience cannot be performed with tactile maps, mostly explored from a top-view. To solve this, we built a system with two different but complementary devices. When coupled, they can provide both allocentric and egocentric spatial information to support the exploration of interactive tactile maps. To show the potential of the system, we built a blind treasure hunt.</p>
+
+                    <p><img class="img-responsive" src="../images/prize_winner.png" alt="Asiahaptics" title="People's Choice Award" style="display:inline"> <spam class="prizetxt">Third Place - People's Choice Award</spam></p>
+
+                    <div class="publabel">
+						<span class="label label-default">Haptics</span>
+	                </div>
+	                [<a href="../../PAPERS/hapticpapers/MemeoOliveira_TactileTreasureMap.pdf">paper</a>]
+                </div>
+            </div>
+
+            <div class="row projitem fltrmedical fltrvr">
+            	<div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/medicalapps/PosterVRST17.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Medical Imaging VR: Can Immersive 3D Aid in Diagnosis?
+                    <br/><spam class="small">VRST 2016</spam></h3>
+
+                    <p><b>Authors:</b> José Venson, Jean Berni, Carlos Maia, Ana Marques3, Marcos d’Ornelas and Anderson Maciel</p>
+                    <p><b>Abstract:</b> In the radiology diagnosis, medical images are most often visualized slice by slice on 2D screens or printed. At the same time, the visualization based on 3D volumetric rendering of the data is considered useful and has increased its field of application. We report a user study to assess VR usage in the diagnostic procedure of fracture identification. In addition, we assessed the subjects perception of the 3D reconstruction quality and ease of interaction.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Medical</span>
+	                </div>
+	                [<a href="../../PAPERS/other/PosterVRST17.pdf">poster</a>]
+                </div>
+            </div>
+
+            <div class="row projitem fltrmedical fltrvr">
+            	<div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/medicalapps/156233.mov" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Immersive Visualization for 3D Volumetric Medical Images
+                    <br/><spam class="small">SVR 2016</spam></h3>
+
+                    <p><b>Authors:</b> José Venson, Jean Carlo Berni and Anderson Maciel</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Medical</span>
+	                </div>
+                </div>
+            </div>
+
+            <div class="row projitem fltrmedical fltrhaptics">
+            	<div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/medicalapps/156909.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Efficient Surgical Cutting with Position-based Dynamics
+                    <br/><spam class="small">SVR 2016 (Demo) & IEEE CG&A (to appear)</spam></h3>
+
+                    <p><b>Authors:</b> Iago Berndt, Rafael Torchelsen and Anderson Maciel</p>
+
+                    <p><img class="img-responsive" src="../images/prize_winner.png" alt="Best SVR" title="Best Demo - People's Choice Award" style="display:inline"> <spam class="prizetxt">Best Demo - People's Choice Award</spam></p>
+
+                    <div class="publabel">
+						<span class="label label-default">Haptics</span>
+						<span class="label label-default">Medical</span>
+	                </div>
+                </div>
+            </div>
+
+            <div class="row projitem fltrmultimodal">
+            	<div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/other/gestures.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Lossless Multitasking: Using 3D gestures embedded in mouse devices
+                    <br/><spam class="small">SVR 2016</spam></h3>
+
+                    <p><b>Authors:</b> FRANZ, J., MENIN, A. and NEDEL, L.</p>
+                    <p><b>Abstract:</b> Desktop-based operating systems allow the use of many applications concurrently, but the frequent switching between two or more applications distracts the user, preventing him to keep focused in the main task. In this work we introduce an augmented mouse, which supports the regular 2D movements and clicks, as well as 3D gestures performed over it. While the keyboard and mouse conventional operation are used for the main task, with 3D gestures the user can control secondary tasks. As a proof of concept, we embedded a Leap Motion Controller device inside a regular mouse. User tests have been conducted firstly to help in the selection of the gestures supported, and then to evaluate the device effectiveness and usability. Results shown that the use of the augmented mouse as a strategy to keep the user focused reduces the task completion time.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">Multimodal</span>
+	                </div>
+                </div>
+            </div>                
+
+            <div class="row projitem fltrhaptics">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="../images/task.png" alt="EUROHAPTICS" />
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Localized Magnification in Vibrotactile HMDs for Accurate Spatial Awareness
+                    <br/><spam class="small">EUROHAPTICS 2016</spam></h3>
+
+                    <p><b>Authors:</b> de JESUS OLIVEIRA, V. A., NEDEL, L., MACIEL, A., BRAYDA, L.</p>
+                    <p><b>Abstract:</b> Actuator density is an important parameter in the design of vibrotactile displays. When it comes to obstacle detection or navigation tasks, a high number of tactors may provide more information, but not necessarily better performance. Depending on the body site and vibration parameters adopted, high density can make it harder to detect tactors in an array. In this paper, we explore the trade-off between actuator density and precision by comparing three kinds of directional cues. After performing a within-subject naive search task using a head-mounted vibrotactile display, we found that increasing the density of the array locally provides higher performance in detecting directional cues.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">Haptics</span>
+	                </div>
+	                [<a href="../../PAPERS/hapticpapers/Eurohaptics.pdf">paper</a>]
+                </div>
+            </div>
+                
+
+            <div class="row projitem fltrhaptics">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="../images/regions.png" alt="HAPTICS" />
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Spatial Discrimination of Vibrotactile Stimuli Around the Head
+                    <br/><spam class="small">Haptics Symposium 2016</spam></h3>
+
+                    <p ><b>Authors:</b> de JESUS OLIVEIRA, V. A., NEDEL, L., MACIEL, A., BRAYDA, L.</p>
+                    <p><b>Abstract:</b> Several studies evaluated vibrotactile stimuli on the head to aid orientation and communication. However, the acuity for vibration of the head's skin still needs to be explored. In this paper, we report the assessment of the spatial resolution on the head. We performed a 2AFC psychophysical experiment systematically varying the distance between pairs of stimuli in a standard-comparison approach. We took into consideration not only the perceptual thresholds but also the reaction times and subjective factors, like workload and vibration pleasantness. Results show that the region around the forehead is not only the most sensitive, with thresholds under 5mm, but it is also the region wherein the spatial discrimination was felt to be easier to perform. We also have found that it is possible to describe acuity on the head for vibrating stimulus as a function of skin type (hairy or glabrous) and of the distance of the stimulated loci from the head midline.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">Haptics</span>
+	                </div>
+	                [<a href="../../PAPERS/hapticpapers/Paper113_SpatialDiscrimination.pdf">paper</a>]
+                </div>
+            </div>
+                
+
+            <div class="row projitem fltrhaptics fltrvr fltrmultimodal">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/haptics/Proactive.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Proactive Haptic Articulation for Intercommunication in Collaborative Virtual Environments
+                    <br/><spam class="small">3DUI 2016</spam></h3>
+
+                    <p><b>Authors:</b> de JESUS OLIVEIRA, V. A., NEDEL, L., MACIEL, A.</p>
+                    <p><b>Abstract:</b> In this paper, we look upon elements present in speech articulation to introduce proactive haptic articulation as a novel approach for communication in Collaborative Virtual Environments. We defend the hypothesis that elements present in natural language, when added to the design of the vibrotactile vocabulary, should provide an expressive medium for intercommunication. Moreover, the ability to render tactile cues to a teammate should encourage users to extrapolate a given vocabulary while using it. We implemented a collaborative puzzle task to observe the use of such vocabulary. Results show that participants autonomously adapted it to attend their communication needs during the assembly.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+						<span class="label label-default">Haptics</span>
+	                </div>
+	                [<a href="../../PAPERS/hapticpapers/3DUI2016.pdf">paper</a>] [<a href="../images/publications/PaperVR.pdf">related poster (VR 2015)</a>] [<a href="../images/publications/VR2016Poster.png">related poster (VR 2016)</a>]
+                </div>
+            </div>
+
+            <div class="row projitem fltrmobile">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/3dmanipulation/SecondScreenSVR2015.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Guidelines for Designing Dynamic Applications With Second Screen
+                    <br/><spam class="small">SVR 2015</spam></h3>
+
+                    <p><b>Authors:</b> Bruno Pagno, Diogo Costa, Leandro Guedes, Carla Dal Sasso Freitas and Luciana Nedel</p>
+                    <p><b>Abstract:</b> The concept of second screen became popular with the introduction of interactive TVs. In this context, while the user focuses on the TV screen, the exploration of additional content is possible through the use of a smartphone or tablet as a second screen. Lately, dynamic applications, e.g. video games, also started to use a second screen. Nintendo DS and Wii U are the game consoles that began to incorporate these ideas. Dynamic applications are based on real time action and interaction, and their implementation can be very complex specially because users have to change focus between the displays frequently. In this paper, we summarize the results found in a set of experimental studies we conducted to verify the usability of interaction techniques based on the use of a second auxiliary screen in dynamic applications. We developed a multiplayer game that employs one main screen shared by two players, each one also using a second (private) screen. From these studies, we elaborate a set of guidelines to help developers in the use of second screens. Although future case studies would improve these guidelines, our experiments show that they contribute with robust principles for developers who want to build multiscreen applications.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">Mobile</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/SecondScreenSVR2015.pdf">paper</a>] 
+                </div>
+            </div>
+               
+            <div class="row projitem fltrhaptics fltrvr">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/haptics/BlindGuardian.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Blind Guardian: A Sonar-Based Solution for Avoiding Collisions with the Real World
+                    <br/><spam class="small">SVR 2015</spam></h3>
+
+                    <p><b>Authors:</b> Marina F. Rey, Inatan Hertzog, Nicolas Kagami and Luciana Nedel</p>
+                    <p><b>Abstract:</b> Sightless navigation is an ever-present issue that affects a great part of the population. The affected include permanent or temporarily blind individuals, persons walking in the dark, and users of immersive virtual environments using real walking for navigation. This paper presents an alternative solution to this problem, which relies on a simple wearable device based on ultrasonic waves to detect obstacles and on vibrotactile feedback to warn the user of nearby obstacles. In the following pages, we describe the design and implementation of this apparatus, called the Blind Guardian. We conducted user tests with 29 subjects in a controlled environment. Results demonstrated the potential of Blind Guardian for future use in real life situations, as well as for immersive virtual reality applications based on the use of head-mounted displays.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Haptics</span>
+	                </div>
+	                [<a href="../../PAPERS/hapticpapers/BlindGuardian.pdf">paper</a>]
+                </div>
+            </div>
+
+            <div class="row projitem fltrvr fltrmultimodal fltrmobile fltrmedical">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/3dmanipulation/LivAR.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Spatially Aware Mobile Interface for 3D Visualization and Interactive Surgery Planning
+                    <br/><spam class="small">SEGAH 2014</spam></h3>
+
+                    <p><b>Authors:</b> GRANDI, J. G., DEBARBA, H. G., ZANCHET, D. J. and MACIEL, A.</p>
+                    <p><b>Abstract:</b> While medical images are fundamental in the surgery planning procedure, the process of analysis of such images slice-by-slice is still tedious and inefficient. In this work we introduce a system for exploration of the internal anatomy structures directly on the surface of the real body using a mobile display device as a window to the interior of the patient’s body. The method is based on volume visualization of standard computed tomography datasets and augmented reality for interactive visualization of the generated volume. It supports our liver surgery planner method in the analysis of the segmented liver and in the color classification of the vessels. We present a set of experiments showing the system’s ability to operate on mobile devices. Quantitative performance results are detailed, and applications in teaching anatomy and doctor-patient communication are discussed.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+						<span class="label label-default">Mobile</span>
+						<span class="label label-default">Medical</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/LivAR.pdf">paper</a>] 
+                </div>
+            </div>
+               
+
+            <div class="row projitem fltrvr fltrmultimodal fltrmobile">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/3dmanipulation/ThePointWalker.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">The Point Walker Multi-label Approach
+                    <br/><spam class="small">3DUI Contest 2014</spam></h3>
+
+                    <p><b>Authors:</b> Hernandi Krammes, Marcio M. Silva, Theodoro Mota, Matheus T. Tura, Anderson Maciel, Luciana Nedel</p>
+                    <p><b>Abstract:</b> This paper presents a 3D user interface to select and label point sets in a point cloud. A walk-in-place strategy based on a weight platform is used for navigation. Selection is made in two levels of precision. First, a pointing technique is used relying on a smartphone and built-in sensors. Then, an ellipsoidal selection volume is deformed by pinching on the smartphone touchscreen in different orientations. Labels are finally selected by pointing icons and a hierarchy of labels is automatically defined by multiple labelling. Voice is used to create new icons/labels. The paper describes the concepts in our approach and the system implementation.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+						<span class="label label-default">Mobile</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/3DUI14.pdf">paper</a>] 
+                </div>
+            </div>
+                
+
+            <div class="row projitem fltrhaptics fltrvr fltrmultimodal">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/haptics/SVR2014.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Tactile Interface for Navigation in Underground Mines
+                    <br/><spam class="small">SVR 2014</spam></h3>
+
+                    <p><b>Authors:</b> de JESUS OLIVEIRA, V. A., MARQUES, E., PERONI, R. de L. and MACIEL, A.</p>
+                    <p><b>Abstract:</b> This paper presents the design and evaluation of a tactile vocabulary to aid navigation in an underground mine. We studied different ways to construct tactile vocabularies and assessed several tactile icons for aid navigation. After trying a dozen stimuli families, we have selected tactons based on the users' ability to perceive and process them during navigation in virtual environments to design a more usable tactile interface. Then, we performed a user experiment in a virtual simulation of an emergency situation in an underground mine. The user study shows that the tactile feedback facilitated the execution of the task. Also, the perceptual adjustment of the tactile vocabulary increased its usability as well as the memorization of its signals.</p>
+
+                    <p><img class="img-responsive" src="../images/prize_winner.png" alt="Best Paper" title="Best Paper Prize" style="display:inline"> <spam class="prizetxt">Best Application Paper Award</spam></p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+						<span class="label label-default">Haptics</span>
+	                </div>
+	                [<a href="../../PAPERS/hapticpapers/SVR2014.pdf">paper</a>]
+                </div>
+            </div>
+                
+
+            <div class="row projitem fltrhaptics fltrvr fltrmultimodal">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/haptics/eurohaptics2014_147.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Assessment of Tactile Languages as Navigation Aid in 3D Environments
+                    <br/><spam class="small">EUROHAPTICS 2014</spam></h3>
+
+                    <p><b>Authors:</b> de JESUS OLIVEIRA, V. A. and MACIEL, A.</p>
+                    <p><b>Abstract:</b> In this paper we present the design and evaluate alternative tactile vocabularies to support navigation in 3D environments. We have focused on the tactile communication expressiveness by applying a prefixation approach in the construction of the tactile icons. We conducted user experiments to analyze the effects of both prefixation and the use of tactile sequences on the user's performance in a navigation task. Results show that, even if tactile sequences are more difficult to process during the navigation task, the prefixed patterns were easier to learn in all assessed vocabularies.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+						<span class="label label-default">Haptics</span>
+	                </div>
+	                [<a href="../../PAPERS/hapticpapers/PaperAssessment.pdf">paper</a>] [<a href="../images/publications/PaperAssessment.pdf">poster</a>] [<a href="../images/publications/Poster3DUI.pdf">related poster (3DUI 2014)</a>]
+                </div>
+            </div>
+                
+
+            <div class="row projitem fltrhaptics">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/haptics/eurohaptics2014_145.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Introducing the Modifier Tactile Pattern for Vibrotactile Communication
+                    <br/><spam class="small">EUROHAPTICS 2014</spam></h3>
+
+                    <p><b>Authors:</b> de JESUS OLIVEIRA, V. A. and MACIEL, A.</p>
+                    <p><b>Abstract:</b> We introduce the concept of "Modifier Tactile Pattern" as a pattern that modifies the interpretation of other elements that compose a Tacton or an entire tactile message. This concept was inspired by the prefixation strategies of the Braille system. We also show how to design tactile languages applying the concept of Modifier by following method- ologies and approaches of Tacton design that already exist in literature. Then a modifier-based tactile language is designed and assessed in a user study.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">Haptics</span>
+	                </div>
+	                [<a href="../../PAPERS/hapticpapers/PaperModifier.pdf">paper</a>] [<a href="../images/publications/PaperModifier.pdf">poster</a>]
+                </div>
+            </div>
+
+            <div class="row projitem fltrvr fltrmultimodal fltrmobile fltrmultidisplay">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/3dmanipulation/DisambiguationCanvas.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Disambiguation Canvas: A Precise Selection Technique for Virtual Environments
+                    <br/><spam class="small">INTERACT 2013</spam></h3>
+
+                    <p><b>Authors:</b> DEBARBA, H. G., GRANDI, J. G., MACIEL, A., NEDEL, L. and BOULIC R.</p>
+                    <p><b>Abstract:</b> We present the disambiguation canvas, a technique developed for easy, accurate and fast selection of small objects and objects inside cluttered virtual environments. Disambiguation canvas rely on selection by progressive refinement, it uses a mobile device and consists of two steps. During the first, the user defines a subset of objects by means of the orientation sensors of the device and a volume casting pointing technique. The subsequent step consists of the disambiguation of the desired target among the previously defined subset of objects, and is accomplished using the mobile device touchscreen. By relying on the touchscreen for the last step, the user can disambiguate among hundreds of objects at once. User tests show that our technique performs faster than ray-casting for targets with approximately 0.53 degrees of angular size, and is also much more accurate for all the tested target sizes.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+						<span class="label label-default">Mobile</span>
+						<span class="label label-default">Multi-displays</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/DisambiguationCanvas.pdf">paper</a>] 
+                </div>
+            </div>
+                
+
+            <div class="row projitem fltrmobile">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="../images/svr2013.png" alt="svr2013" />
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Study of the Sensors Embedded in Smartphones for Use in Indoor Localization
+                    <br/><spam class="small">SVR 2013</spam></h3>
+
+                    <p><b>Authors:</b>Ivan Boesing, Tomaz Silva and Luciana Nedel</p>
+                    <p><b>Abstract:</b> In recent years, smartphones experienced a fast technological growth, approaching its computational capacity to personal computers. In addition to that, new hardware and sensors are being incorporated into these devices. The smartphone’s embedded sensors are a low cost solution that allows interactions between humans, computers and the environment. Examples include applications designed to identify the user’s location by GPS receiver, games that use accelerometers and/or gyroscope, Wi-Fi and Bluetooth antennas that exchange information between users, microphones that perceive user’s gestural movements, and so on. This paper presents a study of the various smartphones sensors, detailing their operation and identifying their main features, advantages, drawbacks, and potential of use for indoor location. We analyzed smartphones sensitive to sound, Wi-Fi, magnetic field, 3-dimensional linear acceleration and angular velocity. This study presented – as the ideal solution – a fusion of sensors to complement individual skills and to improve the information accuracy regarding the device’s rotation and translation. </p>
+
+                    <div class="publabel">
+						<span class="label label-default">Mobile</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/svr2013.pdf">paper</a>]
+                </div>
+            </div>
+
+            <div class="row projitem fltrvr">
+            	<div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/other/VRST.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Interacting with Danger in an Immersive Environment
+                    <br/><spam class="small">VRST 2013</spam></h3>
+
+                    <p><b>Authors:</b> Vitor A. M. Jorge, Wilson J. Sarmiento, Anderson Maciel, Luciana Nedel, César A. Collazos, Frederico Faria, Jackson Oliveira</p>
+                    <p><b>Abstract:</b> Any human-computer interface imposes a certain level of cognitive load to the user task. Analogously, the task itself also imposes different levels of cognitive load. It is common sense in 3D user interfaces research that a higher number of degrees of freedom increases the interface cognitive load. If the cognitive load is significant, it might compromise the user performance and undermine the evaluation of user skills in a virtual environment. In this paper, we propose an assessment of two immersive VR interfaces with varying degrees of freedom in two VR tasks: risk perception and basic object selection. We examine the effectiveness of both interfaces in these two different tasks. Results show that the number of degrees of freedom does not significantly affect a basic selection task, but it affects risk perception task in an unexpected way.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+	                </div>
+                </div>
+            </div>
+
+            <div class="row projitem fltrvr">
+            	<div class="col-md-4">
+                    <img class="img-responsive" src="../images/SAC13.png" alt="SAC" />
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Assessment of a User Centered Interface for Teleoperation and 3D Environments
+                    <br/><spam class="small">SAC 2013</spam></h3>
+
+                    <p><b>Authors:</b> Juliano Franz, Anderson Maciel and Luciana Nedel</p>
+                    <p><b>Abstract:</b> The efficient, natural and precise selection and manipulation of nearby objects in 3D environments is yet a challenge in the area of 3D interaction. Robot teleoperation is a potential application field for this kind of interaction and a difficult task. In part due to the low quality of the information delivered to the operator, but also because of the non-natural interfaces used to operate the robot. This paper presents a direct 3D user interface based on visual and haptic feedback that can be correctly operated by untrained users. The interface offers a higher level of presence than the average existing solutions, and involves the use of the operator’s primary hand to control a robotic arm using a Phantom device. Spatial awareness, in turn, is obtained from stereoscopic vision and motion parallax effect. The main contribution though is an assessment study to investigate which interface elements maximize user performance and if any interface elements is counter-effective. Surprising results show that parallax is the most effective feature while stereoscopy is often detrimental and force feedback requires training. </p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+	                </div>
+	                [<a href="../../PAPERS/other/SAC13.pdf">paper</a>]
+                </div>
+            </div>
+               
+
+            <div class="row projitem fltrvr fltrmultimodal fltrmobile fltrmultidisplay">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/3dmanipulation/LOP.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">LOP-cursor: Fast and precise interaction with tiled displays using one hand and levels of precision
+                    <br/><spam class="small">3DUI 2012</spam></h3>
+
+                    <p><b>Authors:</b> DEBARBA, H. G., NEDEL, L. and MACIEL, A.</p>
+                    <p><b>Abstract:</b> We present levels of precision (LOP) cursor, a metaphor for high precision pointing and simultaneous cursor controlling using commodity mobile devices. The LOP-cursor uses a two levels of precision representation that can be combined to access low and high resolution of input. It provides a constrained area of high resolution input and a broader area of lower input resolution, offering the possibility of working with a two legs cursor using only one hand. LOP-cursor is designed for interaction with large high resolution displays, e.g. display walls, and distributed screens/computers scenarios. This paper presents the design of the cursor, the implementation of a prototype, and user evaluation experiments showing that our method allows both, the acquisition of small targets, and fast interaction while using simultaneous cursors in a comfortable manner. Targets smaller than 0.3 cm can be selected by users at distances over 1.5 m from the screen with minimum effort.</p>
+
+                   	<div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+						<span class="label label-default">Mobile</span>
+						<span class="label label-default">Multi-displays</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/LOPCursor.pdf">paper</a>]
+                </div>
+            </div>
+
+            <div class="row projitem fltrhaptics fltrvr fltrmultimodal">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/haptics/SBGamesFinal.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Inclusive Games: A Multimodal Experience for Blind Players
+                    <br/><spam class="small">SBGAMES 2011</spam></h3>
+
+                    <p><b>Authors:</b> Jean Felipe Patikowski Cheiran, Luciana Nedel and Marcelo Pimenta</p>
+                    <p><b>Abstract:</b> Electronic games have an important role in the human development so we can face the world of constantly changing technologies. Considering that the most of games is grounded in the interaction through visual elements and that the most of alternate games for blind is less attractive to non-blind people, we have developed a prototype of a 3D environment with dense sound experience and haptic feedback that would allow to blind and non-blind users orientate and move through it. Designing this environment like a game, we have employed blindfolded and non-blindfolded users to evaluate the major interaction issues in order to refine the software and make it mature to be used for the research with blind subjects.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+						<span class="label label-default">Haptics</span>
+	                </div>
+	                [<a href="../../PAPERS/hapticpapers/SBGamesFinal.pdf">paper</a>]
+                </div>
+            </div>
+               
+
+            <div class="row projitem fltrvr fltrmultimodal fltrmobile">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/3dmanipulation/CubeOfDoom.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">The cube of doom: A bimanual perceptual user Experience
+                    <br/><spam class="small">3DUI Contest 2011</spam></h3>
+
+                    <p><b>Authors:</b> DEBARBA, H. G., FRANZ, J., REUS, V., MACIEL, A. and NEDEL, L.</p>
+                    <p><b>Abstract:</b> This paper presents a 3D user interface to solve a three-dimensional wooden blocks puzzle. Such interface aims at reproducing the real scenario of puzzle solving using involving devices and techniques for interaction and visualization which include a mobile device, haptics and enhanced stereo vision. The paper describes our interaction approach, the system implementation and user experiments</p>
+
+                   	<div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+						<span class="label label-default">Mobile</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/CubeOfDoom.pdf">paper</a>]
+                </div>
+            </div>
+
+            <div class="row projitem fltrmultimodal">
+            	<div class="col-md-4">
+                    <img class="img-responsive" src="../images/FootSBGames11.png" alt="SBGames" />
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Why not with the foot?
+                    <br/><spam class="small">SBGAMES 2011</spam></h3>
+
+                    <p><b>Authors:</b> Erivaldo Xavier de Lima Filho, Mateus Bisotto Nunes, João Comba and Luciana Nedel</p>
+                    <p><b>Abstract:</b> The evolution of graphics hardware in the past decade has made it possible to generate scenes in computer games with a high degree of realism, which in turn, requires richer interactions. However, while the number and complexity of possible interactive tasks increases, the motor capabilities of humans remains almost constant. One solution for this issue is to use other communication strategies. In this paper, we explore the foot as an interaction channel and demonstrate its viability to accomplish different tasks. We also show that interaction using the foot can be easily and efficiently implemented under different hardware configurations. To validate our hypothesis, we present results of three experiments involving different hardware and software configurations, and summarize the lessons learned and discuss potential avenues to continue this work.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">Multimodal</span>
+	                </div>
+	                [<a href="../../PAPERS/other/FootSBGames11.pdf">paper</a>]
+                </div>
+            </div>
+               
+
+            <div class="row projitem fltrvr fltrmobile">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/3dmanipulation/Peep.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Reality Cues-Based Interaction Using Whole-Body Awareness 
+                    <br/><spam class="small">SAC 2010</spam></h3>
+
+                    <p><b>Authors:</b> MACIEL, A. and NEDEL, L., JORGE, V. A. M., IBIAPINA, J. M. T., SILVA, L. F. M. S.</p>
+                    <p><b>Abstract:</b> The exploration of 3D environments using 6 degrees-of-freedom interaction is still a challenge since users easily become disoriented. In this paper we discuss the benefits of the whole-body awareness in 3D interactive applications. We propose a technique for navigation and selection in 3D environments which explores the peephole metaphor with a tablet PC. In practice, the tablet is held by the participant who moves it around and points it in any direction for visualization and interaction. The method was tested with a set of users who were asked to perform selection tasks. The technique presented competitive results when compared with conventional interaction methods and also showed that real world body orientation memory helps users to perform better in the virtual world.</p>
+
+                   	<div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Mobile</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/Peep.pdf">paper</a>]
+                </div>
+            </div>
+               
+
+          <div class="row projitem fltrvr fltrmultidisplay fltrmobile">
+            <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/3dmanipulation/TabletSAC10.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Collaborative Interaction through Spatially Aware Moving Displays 
+                    <br/><spam class="small">SAC 2010</spam></h3>
+
+                    <p><b>Authors:</b>Anderson Maciel, Luciana P. Nedel, Eduardo M. Mesquita, Marcelo H. Mattos, Gustavo M. Machado, Carla M.D.S. Freitas </p>
+                    <p><b>Abstract:</b> In many real life situations, people work together using each their own computers. In practice, besides personal communication, such situations often involve exchanging documents and other digital objects. Since people are working in a common physical space, it is a natural idea to enlarge the virtual space to a common area where they can exchange objects while taking advantage of the collaborators' physical proximity. In this work we propose a way to allow collaboration through the interaction with objects in a common virtual workspace built on the top of tablet PCs. The concepts of dynamic multiple displays and real world position tracking are implemented exploiting the tablet's embodied resources such as webcam, touch-screen and stylus. Also, a multiplayer game was implemented to show how users can exchange information through intercommunicating tablets. We performed user tests to demonstrate the feasibility of collaborative tasks in such environment, and drawn conslusions regarding the impact of the new paradigm of extended multi-user workspaces.</p>
+
+                   	<div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Mobile</span>
+						<span class="label label-default">Multi-displays</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/TabletSAC10.pdf">paper</a>]
+                </div>
+            </div>
+               
+
+            <div class="row projitem fltrvr fltrmobile">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/3dmanipulation/ARsightseeingSVR10.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">Permeating the Architectural Past in Dante Alighieri Square in Caxias do Sul through Augmented Reality 
+                    <br/><spam class="small">SIBGRAPI 2010</spam></h3>
+
+                    <p><b>Authors:</b> RIBOLDI, G., MACIEL, A.</p>
+                    <p><b>Abstract:</b> Important buildings and urban sites of the recent past were not adequately documented and have been forgotten for a long time. In this context, new experiences with the 3D modeling and simulation of such spaces in VR are becoming very impactful as documentation tools. However, these virtual spaces are not accessible to the general public as visualization tools are not available. The purpose of this work, then, is to create an interaction environment in augmented reality to explore historical areas in such a way that ancient versions of buildings can be visualized and explored directly in the real space where the buildings were in the past or their current versions are situated today. Users handling a mobile display device, as a tablet PC, walk around the real site, and as they point the display towards a neighboring building, they can see how it was in the past, which allows a travel in time, offering a fourth dimension to the experience. The results obtained demonstrate the potential of augmented reality applications for the dissemination of historical heritage.</p>
+
+                   	<div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Mobile</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/ARchitectural_pastSIBGRAPI10.pdf">paper</a>]
+                </div>
+            </div>
+                
+
+            <div class="row projitem fltrvr fltrmultidisplay fltrmobile">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="../images/sibwuw2010b.jpg" alt="sibwuw2010b" />
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">An Interactive Dynamic Tiled Display System 
+                    <br/><spam class="small">SIBGRAPI 2010</spam></h3>
+
+                    <p><b>Authors:</b>Juliano Franz, Gelson Reinaldo, Anderson Maciel and Luciana Nedel</p>
+                    <p><b>Abstract:</b> Data acquisition devices and algorithms are generating each day larger datasets. As displays are not evolving in the same velocity, the use of tiled displays systems is being seriously considered for the visualization of huge datasets. However, tiled-displays are expensive and large, requiring dedicated rooms for it. Therefore we propose a low cost and scalable tiled display using an array of movable tablet PCs. We also present a strategy to interact with applications running on this dynamic tiled display system, which can be operated by one or multiple users concurrently. Our solution is based on two principles: even if each tile is a separate computer, users should feel it as an unique application running on a single machine; interaction is provided by sketching gestures directly over the displays surfaces using the tablet stylus. Users may use the system in a natural way, as they are just taking notes in their own scrapbook. Preliminary results are presented and discussed.</p>
+
+                   	<div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Mobile</span>
+						<span class="label label-default">Multi-displays</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/sibwuw2010b.pdf">paper</a>]
+                </div>
+            </div>
+
+            <div class="row projitem fltrmultimodal fltrvr">
+            	<div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/other/windwalker.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">WindWalker: UsingWind as an Orientation Tool in Virtual Environments
+                    <br/><spam class="small">SVR 2009</spam></h3>
+
+                    <p><b>Authors:</b> Henrique G. Debarba, Jerônimo G. Grandi, Adriano Oliveski, Diana Domingues, Anderson Maciel and Luciana P. Nedel</p>
+                    <p><b>Abstract:</b> Trans-sensory perception is the alternative use of one of our senses to perceive information which is generally perceived by another sense. Common examples exist among handicapped people, such as blind people who play soccer based on sound emitters placed on the ball and at the goals. The present study aims at using wind as an interface modality for interaction in virtual environments. More than that, in this study we propose to use the direction of the air in motion as an abstraction of the natural sense humans have from the wind. We give a new meaning to the wind direction with the purpose of self-orientation in virtual reality environments. We develop hardware and software interfaces for wind rendering and then analyze user performance on specific orientation tasks.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Multimodal</span>
+	                </div>
+	                [<a href="../../PAPERS/other/windwalker.pdf">paper</a>]
+                </div>
+            </div>
+                  
+
+            <div class="row projitem fltrvr fltrmultidisplay fltrmobile">
+                <div class="col-md-4">
+                    <video width="100%" height="100%" controls>
+                        <source src="../../VIDEOS/3dmanipulation/svr-tablet-ing.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="margin-top:0;">A Dynamic Multi-display System Approach 
+                    <br/><spam class="small">SVR 2008</spam></h3>
+
+                    <p><b>Authors:</b>Gelson C. Reinaldo, Marilena Maule, Márcio Zacarias, Anderson Maciel, Carla M.D.S. Freitas, Luciana P. Nedel</p>
+                    <p><b>Abstract:</b> Techniques for construction and configuration of tiled display systems have been focused by a number of research groups. Arrays of monitors or projectors in a fixed size matrix NxM can be managed by computer clusters to display a single image with large dimensions and high resolution. In the present work, an array of tablet PCs is used to compose a tiled display with a specific interaction feature due to the mobility of each individual tablet. Tracking ground fixed markers with the tablets web cameras enable the system to change the virtual image region to be displayed by each tile, which allows dynamic exploration of the visualization space.</p>
+
+                    <div class="publabel">
+						<span class="label label-default">VR & AR</span>
+						<span class="label label-default">Mobile</span>
+						<span class="label label-default">Multi-displays</span>
+	                </div>
+	                [<a href="../../PAPERS/3dmanipulation/svr-tablet-ing.pdf">paper</a>]
+                </div>            
+            </div>
+
+            <br/>
+	        <div class="row text-center">
+	            <p>Last update: Feb 03, 2017</p>
+	        </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                <a href="http://www.ufrgs.br/ufrgs/inicial" class="logo"><img src="../images/ufrgs.png" alt="logo da UFRGS" title="Universidade Federal do Rio Grande do Sul" height="50px"/></a>
+                <a href="http://www.inf.ufrgs.br/" class="logo"><img src="../images/inf.png" alt="logo do INF" title="Instituto de Informática UFRGS"  height="50px"/></a>
+                <a href="https://wiki.inf.ufrgs.br/Computer_Graphics,_Image_Processing_and_Interaction" class="logo"><img src="../images/logo.png" alt="logo do Laboratório de Computação Gráfica, Visualização e Interação" title="Laboratório de Computação Gráfica, Visualização e Interação"  height="50px"/></a>
+                <p>Instituto de Informática - UFRGS<br/>
+                    Caixa Postal 15064, CEP: 91501-970 Porto Alegre - RS - Brasil<br/>
+                    Fone +55 (51) 3308-6168 / Fax +55 (51) 3308-7308</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../js/jquery-1.10.2.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/modern-business.js"></script>
+
+    <script>
+    	$(".btnvr").click(function(){
+    		$(".projitem").hide(); 
+    		$(".fltrvr").show(); 
+    	});
+
+    	$(".btnmultidisplay").click(function(){
+    		$(".projitem").hide(); 
+    		$(".fltrmultidisplay").show(); 
+    	});
+
+    	$(".btnmultimodal").click(function(){
+    		$(".projitem").hide(); 
+    		$(".fltrmultimodal").show(); 
+    	});
+
+    	$(".btnmobile").click(function(){
+    		$(".projitem").hide(); 
+    		$(".fltrmobile").show(); 
+    	});
+
+    	$(".btnhaptic").click(function(){
+    		$(".projitem").hide(); 
+    		$(".fltrhaptics").show(); 
+    	});
+
+    	$(".btnmedical").click(function(){
+    		$(".projitem").hide(); 
+    		$(".fltrmedical").show(); 
+    	});
+    </script>
+    <noscript>
+        <p>O JavaScript não está funcionando, você pode ter problemas ao utilizar esta página.</p>
+    </noscript>
+</body>
+</html>
