@@ -286,3 +286,9 @@ footer p{
 .publabel{
   float: right;
 }
+
+/*jose edition*/
+
+.label{
+	font-size:95%;
+}
