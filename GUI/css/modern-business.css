@@ -147,21 +147,18 @@ footer img{
 }
 
 #photo{
-  width: 120px;
-  height: 120px;
-  background: url("../images/profile.jpg") 0px 0px;
-  background-size: 120px 120px;
+  width: 180px;
+  height: 180px;
+  background: url("../images/profile2.jpg") 0px 0px; 
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;              /* optional, center the image */
   margin:0 auto;
-  border-radius:60px;
+  border-radius:90px;
 }
-
-#photo:hover{
-	-ms-transform: rotate(360deg); /* IE 9 */
-    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
-    transform: rotate(360deg);
-    transition-duration: 1.5s;
+#photo:hover {
+   background-image: url('../images/profile.jpg');
 }
-
 .home{
 	background: url("../images/home.png") no-repeat center right;
 	height: 50px;
@@ -190,7 +187,7 @@ footer img{
 }
 
 h4{
-  color:#999;
+  color:#000;
 }
 
 @media (max-width: 991px){
